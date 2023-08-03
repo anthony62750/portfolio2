@@ -1,0 +1,13 @@
+html {
+    font-size: 62.5%;
+}
+*:not(i){
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(8, 4, 79) 0%, rgba(8, 4, 79) 25%, rgba(0,212,255,1) 50%,rgba(8, 4, 79) 75%, rgba(2,0,36,1) 100%);
+}
