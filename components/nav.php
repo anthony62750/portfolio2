@@ -1,6 +1,6 @@
 <header>
     <nav>
-            <a href="/" id="logo">TOTO</a>
+            <a href="../index.php" ><img id="logo" src="/image/logo.png"></a>
             <i class="fas fa-bars" id="ham-menu"></i>
             <ul id="nav-bar">
                 <li>

@@ -6,11 +6,15 @@
 } */
 header {
     position: fixed;
+    height: 90px;
     width: 100%;
-    background: linear-gradient(0deg, rgb(10, 1, 55) 0%, rgb(15, 7, 92) 40%, rgb(5, 5, 122) 100%);
+    /* background: #5AC0B0; */
+    background: linear-gradient(0deg, #D5E7F2 0%, #8AB5BF 40%, #3F61A6 100%);
     padding: 3rem 5rem;
   }
   nav {
+    position: relative;
+    bottom: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,18 +22,19 @@ header {
   nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
   }
   nav a {
     font-size: 1.8rem;
     text-decoration: none;
   }
-  nav a#logo {
-    color: #ffffff;
-    font-weight: 700;
+  nav img#logo {
+   /* position: fixed; */
+   height: 60px;
+   width: 60px;
   }
   nav ul a {
-    color: #ffffff;
+    color: #303E8C;
     font-weight: 600;
   }
   nav ul a:hover {
@@ -54,29 +59,39 @@ header {
       font-size: 56.25%;
     }
     header {
+      /* position: relative;
+      bottom: 3vh; */
       padding: 2.2rem 8rem;
+    }
+    nav{
+      position: relative;
+      bottom: 0.8vh;
     }
   }
   @media only screen and (max-width: 767px) {
+    nav{
+      bottom : 0.5vh;
+    }
     html {
       font-size: 50%;
     }
     #ham-menu {
+      cursor : pointer;
       display: block;
-      color: #ffffff;
+      color: #303E8C;
     }
     nav a#logo,
     #ham-menu {
       font-size: 3.2rem;
     }
     nav ul {
-      background: linear-gradient(180deg, rgb(10, 1, 55) 0%,  rgb(15, 7, 92) 35%, rgba(5, 5, 122) 100%);
+      background: linear-gradient(180deg,  #D5E7F2 0%, #8AB5BF 40%, #3F61A6 100%);
       background-color: black;
       position: fixed;
       left: -100vw;
-      top: 60px;
+      top: 90px;
       width: 100vw;
-      height: calc(100vh - 60px);
+      height: calc(100vh - 90px);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -93,7 +108,10 @@ header {
       padding: 2rem 3rem;
     }
     nav ul {
-      top: 54px;
-      height: calc(100vh - 54px);
+      top: 90px;
+      height: calc(100vh - 90px);
+    }
+    nav{
+      bottom: 0.3vh;
     }
   }
