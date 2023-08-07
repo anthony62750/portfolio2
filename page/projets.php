@@ -14,9 +14,17 @@
 </head>
 <body>
     <?php include('../components/nav.php') ?>
-    <script src="../assets/js/index.js"></script>
-    <section id="acceuil">
-        <h2>Bonjour</h2>
-    </section>
+    
+    <main>
+        <div class="wrapper">
+            <div class="projet_box" id="box1">Projet 1</div> 
+            <div class="projet_box" id="box2">Projet 2</div>
+            <div class="projet_box" id="box3">Projet 3</div>
+            <div class="projet_box" id="box4">Projet 4</div>
+            <div class="projet_box" id="box5">Projet 5</div>
+            <div class="projet_box" id="box6">Projet 6</div>
+        </div>
+    </main> 
+    <script src="../assets/js/index.js"></script>   
 </body>
 </html>

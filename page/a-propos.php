@@ -14,9 +14,9 @@
 </head>
 <body>
     <?php include('../components/nav.php') ?>
-    <section id="acceuil">
-        <h2>Bonjour</h2>
-    </section>
+    <main>
+        
+    </main>
     <script src="../assets/js/index.js"></script>
 
 </body>

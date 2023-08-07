@@ -8,9 +8,9 @@ header {
     position: fixed;
     height: 90px;
     width: 100%;
-    /* background: #5AC0B0; */
     background: linear-gradient(0deg, #D5E7F2 0%, #8AB5BF 40%, #3F61A6 100%);
     padding: 3rem 5rem;
+    z-index: 3;
   }
   nav {
     position: relative;
@@ -40,11 +40,7 @@ header {
   nav ul a:hover {
     border-bottom: 2px solid #ffffff;
   }
-  section#home {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-  }
+  
   h1 {
     font-size: 4rem;
   }

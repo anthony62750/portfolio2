@@ -1,13 +1,20 @@
 html {
+    
     font-size: 62.5%;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+main{
+    position: relative;
+    height: 100%;
+    top: 90px; 
+    background-color: #F2E5BD;
 }
 *:not(i){
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-section{
-    height: 100vh;
-    background-color: #F2E5BD;
 }

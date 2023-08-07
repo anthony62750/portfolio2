@@ -15,8 +15,8 @@
 <body>
     <?php include('../components/nav.php') ?>
     <script src="../assets/js/index.js"></script>
-    <section id="acceuil">
-        <h2>Bonjour</h2>
-    </section>
+    <main>
+        
+    </main>
 </body>
 </html>
