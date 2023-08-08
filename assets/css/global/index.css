@@ -4,17 +4,23 @@ html {
 }
 body{
     overflow: hidden;
-    height: 100vh;
+    height: 100%;
+    background-color: #F2E5BD;
+
 }
 main{
     position: relative;
     height: 100%;
     top: 90px; 
-    background-color: #F2E5BD;
+    
 }
+
 *:not(i){
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+a {
+    text-decoration: none;
 }

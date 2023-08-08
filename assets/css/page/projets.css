@@ -26,6 +26,19 @@
     /* grid-area: projet1; */
     /* grid-area: 2 / 1 / auto ; */
 }
+#vegeto{ 
+    position: absolute;
+    
+    width: 20vh;
+    height: auto;
+}
+#vegeto2{ 
+    position: absolute;
+    right: 0;
+    width: 20vh;
+    height: auto;
+    transform: scaleX(-1);
+}
 
 
 @media only screen and (max-width : 820px) {
@@ -45,7 +58,14 @@
 }
 
 @media only screen and (max-width : 540px) {
+    body{
+        overflow: visible;
+    }
     .wrapper{
         grid-template-columns:  1fr;
+    }
+    .projet_box{
+        width: 40vh;
+        height: 25vh;
     }
 }

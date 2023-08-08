@@ -16,9 +16,11 @@
     <?php include('../components/nav.php') ?>
     
     <main>
+        <img src="../image/fond_dbz.png" id="vegeto">
+        <img src="../image/fond_dbz.png" id="vegeto2">
         <div class="wrapper">
             <div class="projet_box" id="box1">Projet 1</div> 
-            <div class="projet_box" id="box2">Projet 2</div>
+            <a href="../index.php"><div class="projet_box" id="box2">Projet 2</div></a>
             <div class="projet_box" id="box3">Projet 3</div>
             <div class="projet_box" id="box4">Projet 4</div>
             <div class="projet_box" id="box5">Projet 5</div>
