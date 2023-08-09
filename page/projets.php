@@ -16,8 +16,6 @@
     <?php include('../components/nav.php') ?>
     
     <main>
-        <img src="../image/fond_dbz.png" id="vegeto">
-        <img src="../image/fond_dbz.png" id="vegeto2">
         <div class="wrapper">
             <div class="projet_box" id="box1">Projet 1</div> 
             <a href="../index.php"><div class="projet_box" id="box2">Projet 2</div></a>

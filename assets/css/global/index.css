@@ -1,18 +1,15 @@
-html {
-    
-    font-size: 62.5%;
-}
 body{
-    overflow: hidden;
-    height: 100%;
-    background-color: #F2E5BD;
+    /* overflow: hidden; */
+    height: 100vh;
+    background: url(../../../image/fond_site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 main{
     position: relative;
     height: 100%;
-    top: 90px; 
-    
 }
 
 *:not(i){
@@ -24,3 +21,4 @@ main{
 a {
     text-decoration: none;
 }
+

@@ -13,8 +13,10 @@
     width: 30vh;
     border-radius: 10px;
     border-style: solid;
-    border-color: #303E8C;
-    color :#303E8C;
+    border-color: blanchedalmond;
+    color :blanchedalmond;
+    -webkit-text-stroke: 0.01px;
+    -webkit-text-stroke-color: rgb(34, 34, 44);
     font-size: 250%;
     text-align: center; 
     font-weight: bold;
@@ -26,34 +28,25 @@
     /* grid-area: projet1; */
     /* grid-area: 2 / 1 / auto ; */
 }
-#vegeto{ 
-    position: absolute;
-    
-    width: 20vh;
-    height: auto;
-}
-#vegeto2{ 
-    position: absolute;
-    right: 0;
-    width: 20vh;
-    height: auto;
-    transform: scaleX(-1);
-}
 
+img{
+    width: 20vh;
+    height: auto;
+}
 
 @media only screen and (max-width : 820px) {
  
     .wrapper{
         /* grid-template-columns: repeat(auto-fill,minmax(20vh,1fr)); */
         grid-template-columns: repeat(2,1fr) ;
-
-        /* grid-template-areas:"projet1 projet2"
-                            "projet3 projet4"
-                            "projet5 projet6"; */
         grid-column-gap: 15px;
         top: 12vh;
         justify-content: center;
 
+    }
+    img{
+        height: auto;
+        width: 10vh;
     }
 }
 

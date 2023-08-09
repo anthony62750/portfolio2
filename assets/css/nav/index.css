@@ -1,31 +1,28 @@
-/* #nav-bar {
-    list-style: disc;
-} */
-/* h2{
-    color: red;
-} */
 header {
     position: fixed;
     height: 90px;
     width: 100%;
-    background: linear-gradient(0deg, #D5E7F2 0%, #8AB5BF 40%, #3F61A6 100%);
+    background-color: rgba(0,0,0,0);
     padding: 3rem 5rem;
     z-index: 3;
   }
   nav {
     position: relative;
-    bottom: 2vh;
+    /* bottom: 3vh; */
     display: flex;
+    bottom: 3vh;
     justify-content: space-between;
     align-items: center;
   }
   nav ul {
+    position: relative;
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 4rem;
   }
   nav a {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-decoration: none;
   }
   nav img#logo {
@@ -34,11 +31,13 @@ header {
    width: 60px;
   }
   nav ul a {
-    color: #303E8C;
+    color: whitesmoke;
     font-weight: 600;
   }
   nav ul a:hover {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid red;
+    color:red;
+
   }
   
   h1 {
@@ -52,7 +51,7 @@ header {
   }
   @media only screen and (max-width: 991px) {
     html {
-      font-size: 56.25%;
+      font-size: 85%;
     }
     header {
       /* position: relative;
@@ -61,7 +60,7 @@ header {
     }
     nav{
       position: relative;
-      bottom: 0.8vh;
+      bottom: 1.5vh;
     }
   }
   @media only screen and (max-width: 767px) {
@@ -69,12 +68,12 @@ header {
       bottom : 0.5vh;
     }
     html {
-      font-size: 50%;
+      font-size: 70%;
     }
     #ham-menu {
       cursor : pointer;
       display: block;
-      color: #303E8C;
+      color: #fff;
     }
     nav a#logo,
     #ham-menu {
@@ -99,7 +98,7 @@ header {
   }
   @media only screen and (max-width: 575px) {
     html {
-      font-size: 46.87%;
+      font-size: 60%;
     }
     header {
       padding: 2rem 3rem;
@@ -107,7 +106,7 @@ header {
     nav ul {
       top: 90px;
       height: calc(100vh - 90px);
-            height: calc(var(--vh, 1vh) * 100);
+            /* height: calc(var(--vh, 1vh) * 100); */
     }
     nav{
       bottom: 0.3vh;
