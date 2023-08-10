@@ -49,19 +49,22 @@
                     <form>
                         <h2>Envoyer un message</h2>
                         <div class="inputBox">
-                            <input type="text" name="" require="required">
+                            <input type="text" name="" required />
                             <span>Nom Prénom</span>
+                            <span class="etat"></span>
                         </div>
                         <div class="inputBox">
-                            <input type="email" name="" require="required">
+                            <input type="email" name="" required />
                             <span>Email</span>
+                            <span class="etat"></span>
                         </div>
                         <div class="inputBox">
                             <textarea required="required"></textarea>
                             <span>Ecrivez votre message</span>
                         </div>
                         <div class="inputBox">
-                            <input type="submit" name="" value="Envoyer">
+                            <input type="submit" name="" value="Envoyer" />
+                            <span class="etat"></span>
                         </div>
                     </form>
                 </div>

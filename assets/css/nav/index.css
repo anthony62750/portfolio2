@@ -2,11 +2,12 @@ header {
     position: fixed;
     height: 90px;
     width: 100%;
-    background-color: rgba(0,0,0,0);
-    padding: 3rem 5rem;
+    background-color: rgba(0,0,0,1);
+    padding: 2.5rem 1rem;
     z-index: 3;
   }
   nav {
+    min-width: 100%;
     position: relative;
     /* bottom: 3vh; */
     display: flex;
@@ -56,7 +57,7 @@ header {
     header {
       /* position: relative;
       bottom: 3vh; */
-      padding: 2.2rem 8rem;
+      padding: 2.2rem 5rem;
     }
     nav{
       position: relative;
@@ -80,8 +81,8 @@ header {
       font-size: 3.2rem;
     }
     nav ul {
-      background: linear-gradient(180deg,  #D5E7F2 0%, #8AB5BF 40%, #3F61A6 100%);
-      background-color: black;
+      background: rgba(0,0,0,1);
+      /* background-color: black; */
       position: fixed;
       left: -100vw;
       top: 90px;
